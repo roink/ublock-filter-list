@@ -8,7 +8,6 @@
 ||redd.it^
 ||redditmedia.com^
 ||redditstatic.com^
-||fastly.net^
 
 ! Date: 2024-06-18 | Source: https://www.spiegel.de
 spiegel.de##.sm\:py-16.md\:p-24.lg\:p-24.w-full.relative.z-10
