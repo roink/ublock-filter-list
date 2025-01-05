@@ -1,0 +1,18 @@
+! Filter List
+! Version: 2024-01-05
+! Author: Philipp
+! Description: Custom uBlock Origin filters to block reddit and musk related news.
+
+! Date: 2023-11-11 | Source: https://ce.reddit.com
+||reddit.com^
+||redd.it^
+||redditmedia.com^
+||redditstatic.com^
+||fastly.net^
+
+! Date: 2024-06-18 | Source: https://www.spiegel.de
+spiegel.de##.sm\:py-16.md\:p-24.lg\:p-24.w-full.relative.z-10
+
+! Filtering articles related to Musk
+golem.de##li[data-article-id]:has(a[title*="Musk"], p:contains("Musk"))
+spiegel.de##article[aria-label*="Musk"]
